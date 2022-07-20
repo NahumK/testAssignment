@@ -1,0 +1,36 @@
+.header{
+	display: flex;
+	gap: 5px;
+}
+
+#buttons{
+	display: flex;	
+	margin-left: auto;
+	gap: 20px;
+}
+
+#products{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	justify-content: space-between;
+	gap: 3%;
+}
+
+.product{
+	border: 2px solid black;
+	width: 20%;
+	padding: 20px;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.delete-checkbox{
+	display: block;
+}
+
+hr{
+	height: 1px;
+	border: none;
+	background-color: black;
+}
